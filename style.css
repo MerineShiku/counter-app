@@ -1,0 +1,48 @@
+main {
+  min-height: fit-content;
+  place-items: center;
+  display: grid;
+}
+
+#count_el {
+  margin-bottom: 40vh;
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 50px 10px;
+  cursor: pointer;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.decrease-btn {
+  background-color: red;
+}
+.increase-btn {
+  background-color: green;
+}
+
+.reset-btn {
+  background-color: black;
+}
+
+.btn:hover {
+  color: var(--clr-white);
+  background: var(--clr-black);
+}
+.counter_header {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10vh;
+}
+
+span {
+  font-size: 60px;
+}
